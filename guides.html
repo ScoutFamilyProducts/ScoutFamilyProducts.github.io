@@ -4,69 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Buying Guides & Reviews | Scout Family Products</title>
-  <meta name="description" content="Buying guides, product comparisons, and shopping advice from Scout Family Products. Find the right boots, shirts, hats, and more.">
+  <meta name="description" content="Buying guides, product comparisons, and shopping advice from Scout Family Products LLC. Find the right boots, shirts, hats, and more.">
   <link rel="stylesheet" href="/styles.css">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='6' fill='%23B8960C'/%3E%3C/svg%3E">
   <style>
-    .guides-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1px;
-      background: var(--hairline);
-      border: 1px solid var(--hairline);
-      margin-top: 3rem;
-    }
-    .guide-card {
-      background: var(--cream);
-      padding: 2.5rem;
-      transition: background 0.2s ease;
-    }
-    .guide-card:hover {
-      background: var(--cream-deep);
-    }
-    .guide-card .gc-category {
-      font-size: 0.7rem;
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      color: var(--gold);
-      font-weight: 500;
-      margin-bottom: 0.75rem;
-    }
-    .guide-card h3 {
-      font-size: 1.25rem;
-      margin-bottom: 0.75rem;
-      line-height: 1.3;
-    }
-    .guide-card h3 a {
-      color: var(--black);
-    }
-    .guide-card h3 a:hover {
-      color: var(--gold);
-    }
-    .guide-card p {
-      font-size: 0.9375rem;
-      margin-bottom: 1.25rem;
-    }
-    .guide-card .gc-meta {
-      font-size: 0.75rem;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color: var(--black-soft);
-      opacity: 0.6;
-    }
-    .guide-card .gc-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      font-size: 0.75rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      font-weight: 500;
-      color: var(--gold);
-      margin-top: 1rem;
-      border-bottom: 1px solid var(--hairline-gold);
-      padding-bottom: 2px;
-    }
+    .guides-section { margin-bottom: 4rem; }
+    .guides-section-header { display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1.5rem; }
+    .guides-section-header h2 { font-size: 1.375rem; margin: 0; }
+    .guides-section-header .section-rule { flex: 1; height: 1px; background: var(--hairline-gold); }
+    .guides-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1px; background: var(--hairline); border: 1px solid var(--hairline); }
+    .guide-card { background: var(--cream); padding: 2.5rem; transition: background 0.2s ease; }
+    .guide-card:hover { background: var(--cream-deep); }
+    .guide-card .gc-category { font-size: 0.7rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); font-weight: 500; margin-bottom: 0.75rem; }
+    .guide-card h3 { font-size: 1.25rem; margin-bottom: 0.75rem; line-height: 1.3; }
+    .guide-card h3 a { color: var(--black); }
+    .guide-card h3 a:hover { color: var(--gold); }
+    .guide-card p { font-size: 0.9375rem; margin-bottom: 1.25rem; }
+    .guide-card .gc-meta { font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--black-soft); opacity: 0.6; }
+    .guide-card .gc-link { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; color: var(--gold); margin-top: 1rem; border-bottom: 1px solid var(--hairline-gold); padding-bottom: 2px; }
   </style>
 </head>
 <body>
@@ -100,40 +55,79 @@
     <section style="border-top: 1px solid var(--hairline);">
       <div class="container">
 
-        <div class="section-intro">
-          <span class="eyebrow">All guides</span>
-          <h2>Latest articles</h2>
-          <hr class="divider">
+        <!-- SHOESCOUT GUIDES -->
+        <div class="guides-section">
+          <div class="guides-section-header">
+            <span class="eyebrow">ShoeScout</span>
+            <div class="section-rule"></div>
+          </div>
+          <div class="guides-grid">
+
+            <div class="guide-card">
+              <div class="gc-category">Work Boots</div>
+              <h3><a href="/work-boots-buying-guide.html">Why Cheap Work Boots Cost You More in the Long Run</a></h3>
+              <p>What separates a genuine work boot from a look-alike — construction, shank, safety certification, and why the math on budget boots rarely adds up.</p>
+              <div class="gc-meta">March 2026 · 8 min read</div>
+              <a href="/work-boots-buying-guide.html" class="gc-link">Read guide</a>
+            </div>
+
+            <div class="guide-card">
+              <div class="gc-category">Waterproof Boots</div>
+              <h3><a href="/waterproof-boots-guide.html">Waterproof Boots That Actually Keep Your Feet Dry</a></h3>
+              <p>Not all waterproof boots live up to the claim. Here's what real waterproofing looks like and which boots hold up under serious conditions.</p>
+              <div class="gc-meta">April 2026 · 7 min read</div>
+              <a href="/waterproof-boots-guide.html" class="gc-link">Read guide</a>
+            </div>
+
+            <div class="guide-card">
+              <div class="gc-category">Western Boots</div>
+              <h3><a href="/western-boot-guide.html">What Makes a Real Western Boot — And What to Avoid</a></h3>
+              <p>Western boots range from authentic handcrafted footwear to fashion imitations. Here's how to tell the difference before you buy.</p>
+              <div class="gc-meta">May 2026 · 8 min read</div>
+              <a href="/western-boot-guide.html" class="gc-link">Read guide</a>
+            </div>
+
+            <!-- Future ShoeScout articles here -->
+
+          </div>
         </div>
 
-        <div class="guides-grid">
-
-          <div class="guide-card">
-            <div class="gc-category">ShoeScout · Work Boots</div>
-            <h3><a href="/work-boots-buying-guide.html">Why Cheap Work Boots Cost You More in the Long Run</a></h3>
-            <p>What separates a genuine work boot from a look-alike — construction method, shank material, safety certification, and why the math on budget boots rarely adds up.</p>
-            <div class="gc-meta">March 2026 · 8 min read</div>
-            <a href="/work-boots-buying-guide.html" class="gc-link">Read guide</a>
+        <!-- LIDSCOUT GUIDES -->
+        <div class="guides-section">
+          <div class="guides-section-header">
+            <span class="eyebrow">LidScout</span>
+            <div class="section-rule"></div>
           </div>
+          <div class="guides-grid">
 
-          <div class="guide-card">
-            <div class="gc-category">ShoeScout · Waterproof Boots</div>
-            <h3><a href="/waterproof-boots-guide.html">Waterproof Boots That Actually Keep Your Feet Dry</a></h3>
-            <p>Not all waterproof boots live up to the claim. Here's what real waterproofing looks like, which construction methods hold up under serious conditions, and which boots deliver.</p>
-            <div class="gc-meta">April 2026 · 7 min read</div>
-            <a href="/waterproof-boots-guide.html" class="gc-link">Read guide</a>
+            <div class="guide-card">
+              <div class="gc-category">Hat Styles</div>
+              <h3><a href="/trucker-hat-vs-baseball-cap.html">Trucker Hat vs Baseball Cap — Which Style Fits Your Life</a></h3>
+              <p>They look similar but work differently. Here's how to choose between a trucker hat and a baseball cap based on your lifestyle, climate, and look.</p>
+              <div class="gc-meta">May 2026 · 6 min read</div>
+              <a href="/trucker-hat-vs-baseball-cap.html" class="gc-link">Read guide</a>
+            </div>
+
+            <!-- Future LidScout articles here -->
+
           </div>
+        </div>
 
-          <div class="guide-card">
-            <div class="gc-category">ShoeScout · Western Boots</div>
-            <h3><a href="/western-boot-guide.html">What Makes a Real Western Boot — And What to Avoid</a></h3>
-            <p>Western boots range from authentic handcrafted footwear to fashion imitations built to a price point. Here's how to tell the difference before you buy.</p>
-            <div class="gc-meta">May 2026 · 8 min read</div>
-            <a href="/western-boot-guide.html" class="gc-link">Read guide</a>
+        <!-- SHIRTSCOUT GUIDES -->
+        <div class="guides-section">
+          <div class="guides-section-header">
+            <span class="eyebrow">ShirtScout</span>
+            <div class="section-rule"></div>
           </div>
+          <div class="guides-grid">
 
-          <!-- Future articles added here -->
+            <div class="guide-card" style="opacity: 0.5;">
+              <div class="gc-category">Coming Soon</div>
+              <h3 style="color: var(--black-soft);">ShirtScout guides in progress</h3>
+              <p>Buying guides for formal shirts, casual tees, occasion wear, and more — coming soon.</p>
+            </div>
 
+          </div>
         </div>
 
       </div>
@@ -141,7 +135,7 @@
 
   </main>
 
-  <section id="contact" class="contact">
+  <section class="contact">
     <div class="container">
       <span class="eyebrow">Shop smarter</span>
       <h2>Search across every retailer at once</h2>
