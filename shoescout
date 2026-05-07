@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShoeScout — Shop Boots & Shoes from Durango, Muck Boot, Georgia Boot & More</title>
+  <meta name="description" content="ShoeScout searches Durango Boots, Muck Boot, Georgia Boot, Rocky, eBay, and Amazon at once. Find the best prices on work boots, western boots, and outdoor footwear.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='6' fill='%23B8960C'/%3E%3C/svg%3E">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="brand">
+        <span class="brand-mark"></span>Scout Family Products
+      </a>
+      <nav class="nav">
+        <a href="/shirtscout.html">ShirtScout</a>
+        <a href="/shoescout.html">ShoeScout</a>
+        <a href="/lidscout.html">LidScout</a>
+        <a href="/gemscout.html">GemScout</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">N° 02 — ShopScout</span>
+        <h1>Work boots, western boots, and everything between.</h1>
+        <p class="lede">ShoeScout searches Durango, Muck Boot, Georgia Boot, Rocky, eBay, and Amazon simultaneously — so you find the right boot at the right price without visiting each brand separately.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.scoutfamilyproducts.shopscout" class="coming-soon" target="_blank" rel="noopener">Get ShopScout on Google Play</a>
+      </div>
+    </section>
+
+    <section style="border-top: 1px solid var(--hairline);">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">Brand connectors</span>
+          <h2>Specialty brands searched by ShoeScout</h2>
+          <hr class="divider">
+          <p>ShoeScout connects directly to brand datafeeds and marketplace APIs, returning live inventory with accurate pricing from each source. Results are normalized and merged into a single feed.</p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0; border: 1px solid var(--hairline);">
+
+          <div class="module">
+            <div class="module-number">Western &amp; Work — up to 15% commission</div>
+            <h3>Durango Boots</h3>
+            <p>Over 50 years of western and work boot craftsmanship. Durango's lineup covers everything from traditional cowboy boots to the Maverick XP waterproof work boot. Official boot of the NFR and National Sponsor of ProRodeo.</p>
+          </div>
+
+          <div class="module">
+            <div class="module-number">Outdoor &amp; Waterproof — up to 10% commission</div>
+            <h3>Muck Boot</h3>
+            <p>The Original Muck Boot Company builds 100% waterproof boots designed for outdoor work, farming, gardening, and hunting. Known for their neoprene construction and all-season performance.</p>
+          </div>
+
+          <div class="module">
+            <div class="module-number">Work &amp; Safety — up to 15% commission</div>
+            <h3>Georgia Boot</h3>
+            <p>Built for America's hardest workers since 1937. Georgia Boot's line includes steel-toe work boots, waterproof loggers, and composite-toe safety boots with Goodyear welt construction.</p>
+          </div>
+
+          <div class="module">
+            <div class="module-number">Public Service &amp; Western</div>
+            <h3>Rocky Boots</h3>
+            <p>Rocky's lineup spans western riding boots, public service footwear, and outdoor hunting boots. Known for Berry-compliant construction and the Air-Port Lite cushioned footbed system.</p>
+          </div>
+
+          <div class="module">
+            <div class="module-number">Marketplace</div>
+            <h3>eBay</h3>
+            <p>New and pre-owned footwear from individual sellers and retail store outlets. A strong source for discontinued styles, specialty sizes, and competitive pricing on current-season boots.</p>
+          </div>
+
+          <div class="module">
+            <div class="module-number">Marketplace</div>
+            <h3>Amazon</h3>
+            <p>ShoeScout surfaces Amazon's broad footwear inventory alongside brand results, making it easy to compare pricing across direct-brand and marketplace channels in one view.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section style="border-top: 1px solid var(--hairline); background: var(--cream-deep);">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">Buying Guide</span>
+          <h2>Choosing the right boot for the job</h2>
+          <hr class="divider">
+        </div>
+        <div style="max-width: 720px; margin: 0 auto;">
+
+          <h3 style="margin-bottom: 0.75rem;">Western &amp; Rodeo Boots</h3>
+          <p style="margin-bottom: 2rem;">Durango is the strongest option in this category. The WorkHorse line offers full-grain leather construction, steel shanks, and slip-resistant rubber outsoles at price points that reflect genuine quality. For riders, the Lil' Rebel Pro line extends western styling into youth sizes. The X-Pand System hidden gore expansion is worth prioritizing if you're between sizes.</p>
+
+          <hr style="border: none; border-top: 1px solid var(--hairline); margin: 2rem 0;">
+
+          <h3 style="margin-bottom: 0.75rem;">Work &amp; Safety Boots</h3>
+          <p style="margin-bottom: 2rem;">Georgia Boot's Giant series is a benchmark in the work boot category. Steel-toe compliance with ASTM F2413, Goodyear welt construction for resole-ability, and full-grain leather uppers make the Giant a long-term investment. For composite-toe requirements, the FLXpoint Waterproof Composite Toe is a lighter alternative with the same waterproofing standard. Rocky's public service line is worth considering for postal, utility, and municipal workers requiring Berry compliance.</p>
+
+          <hr style="border: none; border-top: 1px solid var(--hairline); margin: 2rem 0;">
+
+          <h3 style="margin-bottom: 0.75rem;">Outdoor &amp; Waterproof Boots</h3>
+          <p style="margin-bottom: 2rem;">Muck Boot's neoprene construction provides waterproofing that rubber alone can't match. The Wetland boot is the category benchmark for hunters and farmers — calf-high rubber exterior with neoprene lining rated for extended cold exposure. For lighter use, the Muck Originals Lace Up offers the same waterproof guarantee in a more casual profile. If width is a concern, Muck Boot's sizing is generally generous.</p>
+
+          <hr style="border: none; border-top: 1px solid var(--hairline); margin: 2rem 0;">
+
+          <h3 style="margin-bottom: 0.75rem;">Hunting &amp; Pursuit Boots</h3>
+          <p style="margin-bottom: 2rem;">The Muck Alpha Pursuit is built specifically for high-endurance hunting applications — BioLite midsole foam, Muckskin overlays, and Realtree APX camo. The Bone Collector collaboration line extends this into a range of heights and configurations. For active pursuit over terrain, the lace-up construction provides the ankle support that pull-on designs cannot. Rocky's hunting line is also worth comparing for elevated stand and blind hunting where stealth is a factor.</p>
+
+        </div>
+      </div>
+    </section>
+
+    <section style="border-top: 1px solid var(--hairline);">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">Price transparency</span>
+          <h2>What ShoeScout shows you</h2>
+          <hr class="divider">
+          <p>ShoeScout displays the retailer source, current price, sale price where applicable, available sizes, and shipping terms for every result. Prices are live from each retailer's datafeed and updated regularly. Check retailer for latest price and availability before purchasing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <span class="eyebrow">Get ShopScout</span>
+        <h2>ShoeScout is live on Google Play</h2>
+        <a href="https://play.google.com/store/apps/details?id=com.scoutfamilyproducts.shopscout" class="email" target="_blank" rel="noopener">Download ShopScout</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-brand">
+        <span class="brand-mark"></span>Scout Family Products
+      </div>
+      <nav class="footer-nav">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="mailto:scoutfamilyproducts@gmail.com">Contact</a>
+      </nav>
+      <div class="disclosure">
+        <strong style="color: var(--cream); letter-spacing: 0.15em; text-transform: uppercase; font-size: 0.7rem;">Affiliate Disclosure</strong><br><br>
+        Scout Family Products participates in affiliate marketing programs, which means we may earn commissions on qualifying purchases made through links in our apps and on this website at no additional cost to you. As an Amazon Associate, eBay Partner Network publisher, and Commission Junction publisher, we earn from qualifying purchases. Affiliate relationships do not influence which products are surfaced in our apps; results are organized to serve the shopper.
+      </div>
+      <div class="copyright">© 2026 Scout Family Products · All rights reserved</div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://s.skimresources.com/js/302499X1790499.skimlinks.js"></script>
+</body>
+</html>
