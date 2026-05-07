@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LidScout — Find the Best Hats & Headwear Across Top Retailers</title>
+  <meta name="description" content="LidScout searches trucker hats, baseball caps, beanies, and headwear from top brands and marketplaces at once. Find the right lid at the right price.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='6' fill='%23B8960C'/%3E%3C/svg%3E">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="brand">
+        <span class="brand-mark"></span>Scout Family Products
+      </a>
+      <nav class="nav">
+        <a href="/shirtscout.html">ShirtScout</a>
+        <a href="/shoescout.html">ShoeScout</a>
+        <a href="/lidscout.html">LidScout</a>
+        <a href="/gemscout.html">GemScout</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">N° 03 — ShopScout</span>
+        <h1>Every cap, hat, and beanie. One search.</h1>
+        <p class="lede">LidScout searches trucker hats, baseball caps, beanies, snapbacks, and specialty headwear from brand stores and major marketplaces — all in a single normalized feed.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.scoutfamilyproducts.shopscout" class="coming-soon" target="_blank" rel="noopener">Get ShopScout on Google Play</a>
+      </div>
+    </section>
+
+    <section style="border-top: 1px solid var(--hairline);">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">What we search</span>
+          <h2>Sources searched by LidScout</h2>
+          <hr class="divider">
+          <p>LidScout draws from brand specialty stores and major marketplaces. Hat inventory from outdoor and lifestyle brands is included alongside marketplace depth from eBay and Amazon.</p>
+        </div>
+        <div class="modules-grid" style="border: 1px solid var(--hairline);">
+          <div class="module">
+            <div class="module-number">Brand Store</div>
+            <h3>Muck Boot</h3>
+            <p>Trucker hats, logo caps, and branded headwear from the outdoor footwear brand. The Muck Diamond and Logo Trucker styles are popular crossover items for outdoor enthusiasts.</p>
+          </div>
+          <div class="module">
+            <div class="module-number">Brand Store</div>
+            <h3>Durango Boots</h3>
+            <p>Western-styled caps and trucker hats from the iconic boot brand. Ball caps and logo patches for rodeo, ranch, and western lifestyle audiences.</p>
+          </div>
+          <div class="module">
+            <div class="module-number">Brand Store</div>
+            <h3>Georgia Boot</h3>
+            <p>Work-branded caps and trucker hats. Georgia Boot headwear carries the same built-for-workers identity as their footwear lineup.</p>
+          </div>
+          <div class="module">
+            <div class="module-number">Marketplace</div>
+            <h3>eBay</h3>
+            <p>The broadest hat selection available — new retail, vintage, and specialty headwear from individual sellers and store outlets across every style category.</p>
+          </div>
+          <div class="module">
+            <div class="module-number">Marketplace</div>
+            <h3>Amazon</h3>
+            <p>Current-season hats from major brands and smaller sellers, with strong depth in baseball caps, beanies, and branded athletic headwear.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="border-top: 1px solid var(--hairline); background: var(--cream-deep);">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">Buying Guide</span>
+          <h2>Finding the right hat for the occasion</h2>
+          <hr class="divider">
+        </div>
+        <div style="max-width: 720px; margin: 0 auto;">
+
+          <h3 style="margin-bottom: 0.75rem;">Trucker Hats</h3>
+          <p style="margin-bottom: 2rem;">The trucker hat's foam front and mesh back make it one of the most breathable options for outdoor work and casual wear. Muck Boot and Durango both carry trucker styles with brand patches — a strong option if you're already in their footwear ecosystem. For non-branded truckers, eBay's depth in this category is hard to beat. Search by mesh color and front panel style to narrow results quickly.</p>
+
+          <hr style="border: none; border-top: 1px solid var(--hairline); margin: 2rem 0;">
+
+          <h3 style="margin-bottom: 0.75rem;">Baseball Caps</h3>
+          <p style="margin-bottom: 2rem;">Structured vs. unstructured is the primary distinction worth understanding before searching. Structured caps hold their shape and are better for a cleaner look; unstructured caps have a more casual, broken-in silhouette. Amazon carries both at competitive price points. For fitted caps, verify the size chart against your head circumference — sizing varies significantly between brands.</p>
+
+          <hr style="border: none; border-top: 1px solid var(--hairline); margin: 2rem 0;">
+
+          <h3 style="margin-bottom: 0.75rem;">Snapbacks</h3>
+          <p style="margin-bottom: 2rem;">Snapback adjustability makes them a reliable choice when buying as a gift or for a wardrobe where one size needs to work across wearers. eBay has strong vintage snapback inventory if you're looking for older team or brand styles. For current streetwear snapbacks, Amazon's marketplace depth is typically broader than any single brand store.</p>
+
+          <hr style="border: none; border-top: 1px solid var(--hairline); margin: 2rem 0;">
+
+          <h3 style="margin-bottom: 0.75rem;">Beanies</h3>
+          <p style="margin-bottom: 2rem;">For cold-weather beanies, material matters more than most buyers realize. Acrylic beanies are the most affordable and hold their shape well; merino wool costs more but regulates temperature significantly better in variable conditions. eBay and Amazon both carry strong beanie depth. Search by material type and cuff style to find what you're after efficiently.</p>
+
+        </div>
+      </div>
+    </section>
+
+    <section style="border-top: 1px solid var(--hairline);">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">Style filter</span>
+          <h2>Search by hat type in the app</h2>
+          <hr class="divider">
+          <p>LidScout includes style filters inside the ShopScout app — search by baseball cap, trucker hat, snapback, beanie, bucket hat, fedora, or visor to surface the specific headwear category you're looking for across all connected retailers at once.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <span class="eyebrow">Get ShopScout</span>
+        <h2>LidScout is live on Google Play</h2>
+        <a href="https://play.google.com/store/apps/details?id=com.scoutfamilyproducts.shopscout" class="email" target="_blank" rel="noopener">Download ShopScout</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-brand">
+        <span class="brand-mark"></span>Scout Family Products LLC
+      </div>
+      <nav class="footer-nav">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="mailto:scoutfamilyproducts@gmail.com">Contact</a>
+      </nav>
+      <div class="disclosure">
+        <strong style="color: var(--cream); letter-spacing: 0.15em; text-transform: uppercase; font-size: 0.7rem;">Affiliate Disclosure</strong><br><br>
+        Scout Family Products LLC participates in affiliate marketing programs, which means we may earn commissions on qualifying purchases made through links in our apps and on this website at no additional cost to you. As an Amazon Associate, eBay Partner Network publisher, and Commission Junction publisher, we earn from qualifying purchases. Affiliate relationships do not influence which products are surfaced in our apps; results are organized to serve the shopper.
+      </div>
+      <div class="copyright">© 2026 Scout Family Products LLC · All rights reserved</div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://s.skimresources.com/js/302499X1790499.skimlinks.js"></script>
+</body>
+</html>
